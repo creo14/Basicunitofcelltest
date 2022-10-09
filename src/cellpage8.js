@@ -854,6 +854,34 @@ if (reversed == null) { reversed = false; }
 p.nominalBounds = new cjs.Rectangle(0,0,1024,1440);
 
 
+(lib.nextpagewhole = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f().s("#78F9E2").ss(1,1,1).p("EhNJhtUMCaTAAAMAAADapMiaTAAAg");
+	this.shape.setTransform(508.7,716.25);
+
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f("#000000").s().p("EhNJBtVMAAAjapMCaSAAAMAAADapg");
+	this.shape_1.setTransform(508.7,716.25);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.shape_1},{t:this.shape}]},3).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(0,0,1003.5,1417);
+
+
 (lib.nextpage = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
@@ -1229,9 +1257,9 @@ if (reversed == null) { reversed = false; }
 		2.Frame numbers in EaselJS start at 0 instead of 1
 		*/
 		
-		this.cover_nextpage.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_12.bind(this));
+		this.coverwhole_next.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_43.bind(this));
 		
-		function fl_ClickToGoToAndPlayFromFrame_12()
+		function fl_ClickToGoToAndPlayFromFrame_43()
 		{
 			this.gotoAndPlay(116);
 		}
@@ -1659,8 +1687,9 @@ if (reversed == null) { reversed = false; }
 		
 		this.stop();
 		
-		/* Click to Go to Frame and Stop
-		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		
+		/* Click to Go to Frame and Play
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and continues playback from that frame.
 		Can be used on the main timeline or on movie clip timelines.
 		
 		Instructions:
@@ -1668,12 +1697,11 @@ if (reversed == null) { reversed = false; }
 		2.Frame numbers in EaselJS start at 0 instead of 1
 		*/
 		
+		this.plasma_membrane_back.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_31.bind(this));
 		
-		this.plasma_membrane_back.addEventListener("click", fl_ClickToGoToAndStopAtFrame.bind(this));
-		
-		function fl_ClickToGoToAndStopAtFrame()
+		function fl_ClickToGoToAndPlayFromFrame_31()
 		{
-			this.gotoAndStop(3);
+			this.gotoAndPlay(3);
 		}
 	}
 	this.frame_23 = function() {
@@ -1684,8 +1712,9 @@ if (reversed == null) { reversed = false; }
 		
 		this.stop();
 		
-		/* Click to Go to Frame and Stop
-		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		
+		/* Click to Go to Frame and Play
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and continues playback from that frame.
 		Can be used on the main timeline or on movie clip timelines.
 		
 		Instructions:
@@ -1693,12 +1722,11 @@ if (reversed == null) { reversed = false; }
 		2.Frame numbers in EaselJS start at 0 instead of 1
 		*/
 		
+		this.nucleus_back.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_32.bind(this));
 		
-		this.nucleus_back.addEventListener("click", fl_ClickToGoToAndStopAtFrame_2.bind(this));
-		
-		function fl_ClickToGoToAndStopAtFrame_2()
+		function fl_ClickToGoToAndPlayFromFrame_32()
 		{
-			this.gotoAndStop(3);
+			this.gotoAndPlay(3);
 		}
 	}
 	this.frame_33 = function() {
@@ -1709,8 +1737,8 @@ if (reversed == null) { reversed = false; }
 		
 		this.stop();
 		
-		/* Click to Go to Frame and Stop
-		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		/* Click to Go to Frame and Play
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and continues playback from that frame.
 		Can be used on the main timeline or on movie clip timelines.
 		
 		Instructions:
@@ -1718,12 +1746,11 @@ if (reversed == null) { reversed = false; }
 		2.Frame numbers in EaselJS start at 0 instead of 1
 		*/
 		
+		this.nucleolus_back.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_33.bind(this));
 		
-		this.nucleolus_back.addEventListener("click", fl_ClickToGoToAndStopAtFrame_3.bind(this));
-		
-		function fl_ClickToGoToAndStopAtFrame_3()
+		function fl_ClickToGoToAndPlayFromFrame_33()
 		{
-			this.gotoAndStop(3);
+			this.gotoAndPlay(3);
 		}
 	}
 	this.frame_43 = function() {
@@ -1734,8 +1761,8 @@ if (reversed == null) { reversed = false; }
 		
 		this.stop();
 		
-		/* Click to Go to Frame and Stop
-		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		/* Click to Go to Frame and Play
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and continues playback from that frame.
 		Can be used on the main timeline or on movie clip timelines.
 		
 		Instructions:
@@ -1743,12 +1770,11 @@ if (reversed == null) { reversed = false; }
 		2.Frame numbers in EaselJS start at 0 instead of 1
 		*/
 		
+		this.cytoplasm_back.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_34.bind(this));
 		
-		this.cytoplasm_back.addEventListener("click", fl_ClickToGoToAndStopAtFrame_4.bind(this));
-		
-		function fl_ClickToGoToAndStopAtFrame_4()
+		function fl_ClickToGoToAndPlayFromFrame_34()
 		{
-			this.gotoAndStop(3);
+			this.gotoAndPlay(3);
 		}
 	}
 	this.frame_53 = function() {
@@ -1759,8 +1785,8 @@ if (reversed == null) { reversed = false; }
 		
 		this.stop();
 		
-		/* Click to Go to Frame and Stop
-		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		/* Click to Go to Frame and Play
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and continues playback from that frame.
 		Can be used on the main timeline or on movie clip timelines.
 		
 		Instructions:
@@ -1768,12 +1794,11 @@ if (reversed == null) { reversed = false; }
 		2.Frame numbers in EaselJS start at 0 instead of 1
 		*/
 		
+		this.mitochondria_back.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_35.bind(this));
 		
-		this.mitochondria_back.addEventListener("click", fl_ClickToGoToAndStopAtFrame_5.bind(this));
-		
-		function fl_ClickToGoToAndStopAtFrame_5()
+		function fl_ClickToGoToAndPlayFromFrame_35()
 		{
-			this.gotoAndStop(3);
+			this.gotoAndPlay(3);
 		}
 	}
 	this.frame_63 = function() {
@@ -1784,8 +1809,8 @@ if (reversed == null) { reversed = false; }
 		
 		this.stop();
 		
-		/* Click to Go to Frame and Stop
-		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		/* Click to Go to Frame and Play
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and continues playback from that frame.
 		Can be used on the main timeline or on movie clip timelines.
 		
 		Instructions:
@@ -1793,12 +1818,11 @@ if (reversed == null) { reversed = false; }
 		2.Frame numbers in EaselJS start at 0 instead of 1
 		*/
 		
+		this.ser_back.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_36.bind(this));
 		
-		this.ser_back.addEventListener("click", fl_ClickToGoToAndStopAtFrame_6.bind(this));
-		
-		function fl_ClickToGoToAndStopAtFrame_6()
+		function fl_ClickToGoToAndPlayFromFrame_36()
 		{
-			this.gotoAndStop(3);
+			this.gotoAndPlay(3);
 		}
 	}
 	this.frame_73 = function() {
@@ -1809,8 +1833,8 @@ if (reversed == null) { reversed = false; }
 		
 		this.stop();
 		
-		/* Click to Go to Frame and Stop
-		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		/* Click to Go to Frame and Play
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and continues playback from that frame.
 		Can be used on the main timeline or on movie clip timelines.
 		
 		Instructions:
@@ -1818,12 +1842,11 @@ if (reversed == null) { reversed = false; }
 		2.Frame numbers in EaselJS start at 0 instead of 1
 		*/
 		
+		this.ribosome_back.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_37.bind(this));
 		
-		this.ribosome_back.addEventListener("click", fl_ClickToGoToAndStopAtFrame_7.bind(this));
-		
-		function fl_ClickToGoToAndStopAtFrame_7()
+		function fl_ClickToGoToAndPlayFromFrame_37()
 		{
-			this.gotoAndStop(3);
+			this.gotoAndPlay(3);
 		}
 	}
 	this.frame_83 = function() {
@@ -1834,8 +1857,8 @@ if (reversed == null) { reversed = false; }
 		
 		this.stop();
 		
-		/* Click to Go to Frame and Stop
-		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		/* Click to Go to Frame and Play
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and continues playback from that frame.
 		Can be used on the main timeline or on movie clip timelines.
 		
 		Instructions:
@@ -1843,12 +1866,11 @@ if (reversed == null) { reversed = false; }
 		2.Frame numbers in EaselJS start at 0 instead of 1
 		*/
 		
+		this.gaparatus_back.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_38.bind(this));
 		
-		this.gaparatus_back.addEventListener("click", fl_ClickToGoToAndStopAtFrame_8.bind(this));
-		
-		function fl_ClickToGoToAndStopAtFrame_8()
+		function fl_ClickToGoToAndPlayFromFrame_38()
 		{
-			this.gotoAndStop(3);
+			this.gotoAndPlay(3);
 		}
 	}
 	this.frame_93 = function() {
@@ -1859,8 +1881,8 @@ if (reversed == null) { reversed = false; }
 		
 		this.stop();
 		
-		/* Click to Go to Frame and Stop
-		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		/* Click to Go to Frame and Play
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and continues playback from that frame.
 		Can be used on the main timeline or on movie clip timelines.
 		
 		Instructions:
@@ -1868,12 +1890,11 @@ if (reversed == null) { reversed = false; }
 		2.Frame numbers in EaselJS start at 0 instead of 1
 		*/
 		
+		this.lysosome_back.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_39.bind(this));
 		
-		this.lysosome_back.addEventListener("click", fl_ClickToGoToAndStopAtFrame_9.bind(this));
-		
-		function fl_ClickToGoToAndStopAtFrame_9()
+		function fl_ClickToGoToAndPlayFromFrame_39()
 		{
-			this.gotoAndStop(3);
+			this.gotoAndPlay(3);
 		}
 	}
 	this.frame_103 = function() {
@@ -1884,8 +1905,8 @@ if (reversed == null) { reversed = false; }
 		
 		this.stop();
 		
-		/* Click to Go to Frame and Stop
-		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		/* Click to Go to Frame and Play
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and continues playback from that frame.
 		Can be used on the main timeline or on movie clip timelines.
 		
 		Instructions:
@@ -1893,12 +1914,11 @@ if (reversed == null) { reversed = false; }
 		2.Frame numbers in EaselJS start at 0 instead of 1
 		*/
 		
+		this.rer_back.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_40.bind(this));
 		
-		this.rer_back.addEventListener("click", fl_ClickToGoToAndStopAtFrame_10.bind(this));
-		
-		function fl_ClickToGoToAndStopAtFrame_10()
+		function fl_ClickToGoToAndPlayFromFrame_40()
 		{
-			this.gotoAndStop(3);
+			this.gotoAndPlay(3);
 		}
 	}
 	this.frame_113 = function() {
@@ -1909,8 +1929,8 @@ if (reversed == null) { reversed = false; }
 		
 		this.stop();
 		
-		/* Click to Go to Frame and Stop
-		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		/* Click to Go to Frame and Play
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and continues playback from that frame.
 		Can be used on the main timeline or on movie clip timelines.
 		
 		Instructions:
@@ -1918,12 +1938,11 @@ if (reversed == null) { reversed = false; }
 		2.Frame numbers in EaselJS start at 0 instead of 1
 		*/
 		
+		this.centrioles_back.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_41.bind(this));
 		
-		this.centrioles_back.addEventListener("click", fl_ClickToGoToAndStopAtFrame_13.bind(this));
-		
-		function fl_ClickToGoToAndStopAtFrame_13()
+		function fl_ClickToGoToAndPlayFromFrame_41()
 		{
-			this.gotoAndStop(3);
+			this.gotoAndPlay(3);
 		}
 	}
 	this.frame_114 = function() {
@@ -2046,7 +2065,7 @@ if (reversed == null) { reversed = false; }
 		
 		function fl_ClickToGoToAndPlayFromFrame_22()
 		{
-			this.gotoAndPlay(115);
+			this.gotoAndPlay(116);
 		}
 	}
 	this.frame_143 = function() {
@@ -2139,6 +2158,22 @@ if (reversed == null) { reversed = false; }
 		*/
 		
 		this.stop();
+		
+		/* Click to Go to Frame and Play
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and continues playback from that frame.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		this.morepages_back.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_42.bind(this));
+		
+		function fl_ClickToGoToAndPlayFromFrame_42()
+		{
+			this.gotoAndPlay(3);
+		}
 	}
 
 	// actions tween:
@@ -2403,7 +2438,12 @@ if (reversed == null) { reversed = false; }
 	this.shape.graphics.f().s("#78F9E2").ss(1,1,1).p("EhPmhwKMCfNAAAMAAADgVMifNAAAg");
 	this.shape.setTransform(512.825,719.575);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.shape,p:{x:512.825,y:719.575}},{t:this.instance_22,p:{x:512.75,y:719.6}}]},115).to({state:[]},5).to({state:[{t:this.shape,p:{x:510.275,y:718.275}},{t:this.instance_22,p:{x:510.2,y:718.3}}]},4).to({state:[]},5).to({state:[{t:this.shape,p:{x:510.275,y:718.275}},{t:this.instance_22,p:{x:510.2,y:718.3}}]},5).to({state:[]},5).to({state:[{t:this.shape,p:{x:510.275,y:718.275}},{t:this.instance_22,p:{x:510.2,y:718.3}}]},5).to({state:[]},5).to({state:[{t:this.shape,p:{x:510.275,y:718.275}},{t:this.instance_22,p:{x:510.2,y:718.3}}]},5).to({state:[]},5).wait(2));
+	this.morepages_back = new lib.nextpagewhole();
+	this.morepages_back.name = "morepages_back";
+	this.morepages_back.setTransform(4.95,4.95);
+	new cjs.ButtonHelper(this.morepages_back, 0, 1, 2, false, new lib.nextpagewhole(), 3);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.shape,p:{x:512.825,y:719.575}},{t:this.instance_22,p:{x:512.75,y:719.6}}]},115).to({state:[]},5).to({state:[{t:this.shape,p:{x:510.275,y:718.275}},{t:this.instance_22,p:{x:510.2,y:718.3}}]},4).to({state:[]},5).to({state:[{t:this.shape,p:{x:510.275,y:718.275}},{t:this.instance_22,p:{x:510.2,y:718.3}}]},5).to({state:[]},5).to({state:[{t:this.shape,p:{x:510.275,y:718.275}},{t:this.instance_22,p:{x:510.2,y:718.3}}]},5).to({state:[]},5).to({state:[{t:this.shape,p:{x:510.275,y:718.275}},{t:this.instance_22,p:{x:510.2,y:718.3}}]},5).to({state:[{t:this.morepages_back}]},5).wait(2));
 
 	// Layer_1
 	this.instance_23 = new lib.SampleCoveralpha();
@@ -2412,10 +2452,10 @@ if (reversed == null) { reversed = false; }
 	this.intromovie.name = "intromovie";
 	this.intromovie.setTransform(510,665.85,2,2,0,0,0,512,720);
 
-	this.cover_nextpage = new lib.nextpage();
-	this.cover_nextpage.name = "cover_nextpage";
-	this.cover_nextpage.setTransform(970.5,721.25,1,1,0,0,0,27.7,684.8);
-	new cjs.ButtonHelper(this.cover_nextpage, 0, 1, 2, false, new lib.nextpage(), 3);
+	this.coverwhole_next = new lib.nextpagewhole();
+	this.coverwhole_next.name = "coverwhole_next";
+	this.coverwhole_next.setTransform(5.8,3.25);
+	new cjs.ButtonHelper(this.coverwhole_next, 0, 1, 2, false, new lib.nextpagewhole(), 3);
 
 	this.shape_1 = new cjs.Shape();
 	this.shape_1.graphics.f().s("#78F9E2").ss(1,1,1).p("AjqjrIHWAAIAAHXInWAAg");
@@ -2515,7 +2555,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_35 = new lib.CachedBmp_20();
 	this.instance_35.setTransform(321.15,654.85,0.5,0.5);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.intromovie},{t:this.instance_23}]}).to({state:[{t:this.shape_2},{t:this.shape_1},{t:this.intromovie},{t:this.instance_23},{t:this.cover_nextpage}]},1).to({state:[{t:this.instance_28},{t:this.instance_27},{t:this.instance_26},{t:this.instance_25,p:{x:0}},{t:this.instance_24},{t:this.plasma_membrane},{t:this.nucleus},{t:this.nucleolus},{t:this.cytoplasm},{t:this.mithocondria},{t:this.sm_endosplasmic},{t:this.ribosome},{t:this.golgi_apparatus},{t:this.lysosome},{t:this.ro_endoplasmic},{t:this.centrioles}]},1).to({state:[{t:this.instance_28},{t:this.instance_27},{t:this.instance_26},{t:this.instance_25,p:{x:0}},{t:this.instance_24},{t:this.plasma_membrane},{t:this.nucleus},{t:this.nucleolus},{t:this.cytoplasm},{t:this.mithocondria},{t:this.sm_endosplasmic},{t:this.ribosome},{t:this.golgi_apparatus},{t:this.lysosome},{t:this.ro_endoplasmic},{t:this.centrioles}]},3).to({state:[{t:this.instance_28},{t:this.instance_27},{t:this.instance_26},{t:this.instance_25,p:{x:0}},{t:this.instance_24},{t:this.plasma_membrane},{t:this.nucleus},{t:this.nucleolus},{t:this.cytoplasm},{t:this.mithocondria},{t:this.sm_endosplasmic},{t:this.ribosome},{t:this.golgi_apparatus},{t:this.lysosome},{t:this.ro_endoplasmic},{t:this.centrioles}]},8).to({state:[{t:this.instance_28},{t:this.instance_27},{t:this.instance_26},{t:this.instance_25,p:{x:0}},{t:this.instance_24},{t:this.plasma_membrane},{t:this.nucleus},{t:this.nucleolus},{t:this.cytoplasm},{t:this.mithocondria},{t:this.sm_endosplasmic},{t:this.ribosome},{t:this.golgi_apparatus},{t:this.lysosome},{t:this.ro_endoplasmic},{t:this.centrioles}]},10).to({state:[{t:this.instance_28},{t:this.instance_27},{t:this.instance_26},{t:this.instance_25,p:{x:0}},{t:this.instance_24},{t:this.plasma_membrane},{t:this.nucleus},{t:this.nucleolus},{t:this.cytoplasm},{t:this.mithocondria},{t:this.sm_endosplasmic},{t:this.ribosome},{t:this.golgi_apparatus},{t:this.lysosome},{t:this.ro_endoplasmic},{t:this.centrioles}]},10).to({state:[{t:this.instance_28},{t:this.instance_27},{t:this.instance_26},{t:this.instance_25,p:{x:0}},{t:this.instance_24},{t:this.plasma_membrane},{t:this.nucleus},{t:this.nucleolus},{t:this.cytoplasm},{t:this.mithocondria},{t:this.sm_endosplasmic},{t:this.ribosome},{t:this.golgi_apparatus},{t:this.lysosome},{t:this.ro_endoplasmic},{t:this.centrioles}]},10).to({state:[{t:this.instance_28},{t:this.instance_27},{t:this.instance_26},{t:this.instance_25,p:{x:0}},{t:this.instance_24},{t:this.plasma_membrane},{t:this.nucleus},{t:this.nucleolus},{t:this.cytoplasm},{t:this.mithocondria},{t:this.sm_endosplasmic},{t:this.ribosome},{t:this.golgi_apparatus},{t:this.lysosome},{t:this.ro_endoplasmic},{t:this.centrioles}]},10).to({state:[{t:this.instance_28},{t:this.instance_27},{t:this.instance_26},{t:this.instance_25,p:{x:0}},{t:this.instance_24},{t:this.plasma_membrane},{t:this.nucleus},{t:this.nucleolus},{t:this.cytoplasm},{t:this.mithocondria},{t:this.sm_endosplasmic},{t:this.ribosome},{t:this.golgi_apparatus},{t:this.lysosome},{t:this.ro_endoplasmic},{t:this.centrioles}]},10).to({state:[{t:this.instance_28},{t:this.instance_27},{t:this.instance_26},{t:this.instance_25,p:{x:0}},{t:this.instance_24},{t:this.plasma_membrane},{t:this.nucleus},{t:this.nucleolus},{t:this.cytoplasm},{t:this.mithocondria},{t:this.sm_endosplasmic},{t:this.ribosome},{t:this.golgi_apparatus},{t:this.lysosome},{t:this.ro_endoplasmic},{t:this.centrioles}]},20).to({state:[{t:this.instance_28},{t:this.instance_27},{t:this.instance_26},{t:this.instance_25,p:{x:0}},{t:this.instance_24},{t:this.plasma_membrane},{t:this.nucleus},{t:this.nucleolus},{t:this.cytoplasm},{t:this.mithocondria},{t:this.sm_endosplasmic},{t:this.ribosome},{t:this.golgi_apparatus},{t:this.lysosome},{t:this.ro_endoplasmic},{t:this.centrioles}]},10).to({state:[{t:this.instance_28},{t:this.instance_27},{t:this.instance_26},{t:this.instance_25,p:{x:0}},{t:this.instance_24},{t:this.plasma_membrane},{t:this.nucleus},{t:this.nucleolus},{t:this.cytoplasm},{t:this.mithocondria},{t:this.sm_endosplasmic},{t:this.ribosome},{t:this.golgi_apparatus},{t:this.lysosome},{t:this.ro_endoplasmic},{t:this.centrioles}]},10).to({state:[{t:this.instance_28},{t:this.instance_27},{t:this.instance_26},{t:this.instance_25,p:{x:0}},{t:this.instance_24},{t:this.plasma_membrane},{t:this.nucleus},{t:this.nucleolus},{t:this.cytoplasm},{t:this.mithocondria},{t:this.sm_endosplasmic},{t:this.ribosome},{t:this.golgi_apparatus},{t:this.lysosome},{t:this.ro_endoplasmic},{t:this.centrioles}]},10).to({state:[{t:this.instance_28},{t:this.instance_27},{t:this.instance_26},{t:this.instance_25,p:{x:223}},{t:this.instance_24},{t:this.plasma_membrane},{t:this.nucleus},{t:this.nucleolus},{t:this.cytoplasm},{t:this.mithocondria},{t:this.sm_endosplasmic},{t:this.ribosome},{t:this.golgi_apparatus},{t:this.lysosome},{t:this.ro_endoplasmic},{t:this.centrioles}]},1).to({state:[{t:this.instance_29}]},1).to({state:[{t:this.instance_29}]},8).to({state:[{t:this.instance_30}]},1).to({state:[{t:this.instance_30}]},9).to({state:[{t:this.instance_31}]},1).to({state:[{t:this.instance_32}]},10).to({state:[{t:this.instance_33}]},10).to({state:[{t:this.instance_33},{t:this.instance_34}]},5).to({state:[{t:this.instance_33},{t:this.instance_35}]},1).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.intromovie},{t:this.instance_23}]}).to({state:[{t:this.shape_2},{t:this.shape_1},{t:this.intromovie},{t:this.instance_23},{t:this.coverwhole_next}]},1).to({state:[{t:this.instance_28},{t:this.instance_27},{t:this.instance_26},{t:this.instance_25,p:{x:0}},{t:this.instance_24},{t:this.plasma_membrane},{t:this.nucleus},{t:this.nucleolus},{t:this.cytoplasm},{t:this.mithocondria},{t:this.sm_endosplasmic},{t:this.ribosome},{t:this.golgi_apparatus},{t:this.lysosome},{t:this.ro_endoplasmic},{t:this.centrioles}]},1).to({state:[{t:this.instance_28},{t:this.instance_27},{t:this.instance_26},{t:this.instance_25,p:{x:0}},{t:this.instance_24},{t:this.plasma_membrane},{t:this.nucleus},{t:this.nucleolus},{t:this.cytoplasm},{t:this.mithocondria},{t:this.sm_endosplasmic},{t:this.ribosome},{t:this.golgi_apparatus},{t:this.lysosome},{t:this.ro_endoplasmic},{t:this.centrioles}]},3).to({state:[{t:this.instance_28},{t:this.instance_27},{t:this.instance_26},{t:this.instance_25,p:{x:0}},{t:this.instance_24},{t:this.plasma_membrane},{t:this.nucleus},{t:this.nucleolus},{t:this.cytoplasm},{t:this.mithocondria},{t:this.sm_endosplasmic},{t:this.ribosome},{t:this.golgi_apparatus},{t:this.lysosome},{t:this.ro_endoplasmic},{t:this.centrioles}]},8).to({state:[{t:this.instance_28},{t:this.instance_27},{t:this.instance_26},{t:this.instance_25,p:{x:0}},{t:this.instance_24},{t:this.plasma_membrane},{t:this.nucleus},{t:this.nucleolus},{t:this.cytoplasm},{t:this.mithocondria},{t:this.sm_endosplasmic},{t:this.ribosome},{t:this.golgi_apparatus},{t:this.lysosome},{t:this.ro_endoplasmic},{t:this.centrioles}]},10).to({state:[{t:this.instance_28},{t:this.instance_27},{t:this.instance_26},{t:this.instance_25,p:{x:0}},{t:this.instance_24},{t:this.plasma_membrane},{t:this.nucleus},{t:this.nucleolus},{t:this.cytoplasm},{t:this.mithocondria},{t:this.sm_endosplasmic},{t:this.ribosome},{t:this.golgi_apparatus},{t:this.lysosome},{t:this.ro_endoplasmic},{t:this.centrioles}]},10).to({state:[{t:this.instance_28},{t:this.instance_27},{t:this.instance_26},{t:this.instance_25,p:{x:0}},{t:this.instance_24},{t:this.plasma_membrane},{t:this.nucleus},{t:this.nucleolus},{t:this.cytoplasm},{t:this.mithocondria},{t:this.sm_endosplasmic},{t:this.ribosome},{t:this.golgi_apparatus},{t:this.lysosome},{t:this.ro_endoplasmic},{t:this.centrioles}]},10).to({state:[{t:this.instance_28},{t:this.instance_27},{t:this.instance_26},{t:this.instance_25,p:{x:0}},{t:this.instance_24},{t:this.plasma_membrane},{t:this.nucleus},{t:this.nucleolus},{t:this.cytoplasm},{t:this.mithocondria},{t:this.sm_endosplasmic},{t:this.ribosome},{t:this.golgi_apparatus},{t:this.lysosome},{t:this.ro_endoplasmic},{t:this.centrioles}]},10).to({state:[{t:this.instance_28},{t:this.instance_27},{t:this.instance_26},{t:this.instance_25,p:{x:0}},{t:this.instance_24},{t:this.plasma_membrane},{t:this.nucleus},{t:this.nucleolus},{t:this.cytoplasm},{t:this.mithocondria},{t:this.sm_endosplasmic},{t:this.ribosome},{t:this.golgi_apparatus},{t:this.lysosome},{t:this.ro_endoplasmic},{t:this.centrioles}]},10).to({state:[{t:this.instance_28},{t:this.instance_27},{t:this.instance_26},{t:this.instance_25,p:{x:0}},{t:this.instance_24},{t:this.plasma_membrane},{t:this.nucleus},{t:this.nucleolus},{t:this.cytoplasm},{t:this.mithocondria},{t:this.sm_endosplasmic},{t:this.ribosome},{t:this.golgi_apparatus},{t:this.lysosome},{t:this.ro_endoplasmic},{t:this.centrioles}]},20).to({state:[{t:this.instance_28},{t:this.instance_27},{t:this.instance_26},{t:this.instance_25,p:{x:0}},{t:this.instance_24},{t:this.plasma_membrane},{t:this.nucleus},{t:this.nucleolus},{t:this.cytoplasm},{t:this.mithocondria},{t:this.sm_endosplasmic},{t:this.ribosome},{t:this.golgi_apparatus},{t:this.lysosome},{t:this.ro_endoplasmic},{t:this.centrioles}]},10).to({state:[{t:this.instance_28},{t:this.instance_27},{t:this.instance_26},{t:this.instance_25,p:{x:0}},{t:this.instance_24},{t:this.plasma_membrane},{t:this.nucleus},{t:this.nucleolus},{t:this.cytoplasm},{t:this.mithocondria},{t:this.sm_endosplasmic},{t:this.ribosome},{t:this.golgi_apparatus},{t:this.lysosome},{t:this.ro_endoplasmic},{t:this.centrioles}]},10).to({state:[{t:this.instance_28},{t:this.instance_27},{t:this.instance_26},{t:this.instance_25,p:{x:0}},{t:this.instance_24},{t:this.plasma_membrane},{t:this.nucleus},{t:this.nucleolus},{t:this.cytoplasm},{t:this.mithocondria},{t:this.sm_endosplasmic},{t:this.ribosome},{t:this.golgi_apparatus},{t:this.lysosome},{t:this.ro_endoplasmic},{t:this.centrioles}]},10).to({state:[{t:this.instance_28},{t:this.instance_27},{t:this.instance_26},{t:this.instance_25,p:{x:223}},{t:this.instance_24},{t:this.plasma_membrane},{t:this.nucleus},{t:this.nucleolus},{t:this.cytoplasm},{t:this.mithocondria},{t:this.sm_endosplasmic},{t:this.ribosome},{t:this.golgi_apparatus},{t:this.lysosome},{t:this.ro_endoplasmic},{t:this.centrioles}]},1).to({state:[{t:this.instance_29}]},1).to({state:[{t:this.instance_29}]},8).to({state:[{t:this.instance_30}]},1).to({state:[{t:this.instance_30}]},9).to({state:[{t:this.instance_31}]},1).to({state:[{t:this.instance_32}]},10).to({state:[{t:this.instance_33}]},10).to({state:[{t:this.instance_33},{t:this.instance_34}]},5).to({state:[{t:this.instance_33},{t:this.instance_35}]},1).wait(1));
 
 	this._renderFirstFrame();
 
@@ -2530,26 +2570,26 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/cellpage8_atlas_1.png?1665288895145", id:"cellpage8_atlas_1"},
-		{src:"images/cellpage8_atlas_2.png?1665288895146", id:"cellpage8_atlas_2"},
-		{src:"images/cellpage8_atlas_3.png?1665288895146", id:"cellpage8_atlas_3"},
-		{src:"images/cellpage8_atlas_4.png?1665288895146", id:"cellpage8_atlas_4"},
-		{src:"images/cellpage8_atlas_5.png?1665288895146", id:"cellpage8_atlas_5"},
-		{src:"images/cellpage8_atlas_6.png?1665288895146", id:"cellpage8_atlas_6"},
-		{src:"images/cellpage8_atlas_7.png?1665288895147", id:"cellpage8_atlas_7"},
-		{src:"images/cellpage8_atlas_8.png?1665288895147", id:"cellpage8_atlas_8"},
-		{src:"images/cellpage8_atlas_9.png?1665288895147", id:"cellpage8_atlas_9"},
-		{src:"images/cellpage8_atlas_10.png?1665288895147", id:"cellpage8_atlas_10"},
-		{src:"images/cellpage8_atlas_11.png?1665288895147", id:"cellpage8_atlas_11"},
-		{src:"images/cellpage8_atlas_12.png?1665288895147", id:"cellpage8_atlas_12"},
-		{src:"images/cellpage8_atlas_13.png?1665288895147", id:"cellpage8_atlas_13"},
-		{src:"images/cellpage8_atlas_14.png?1665288895148", id:"cellpage8_atlas_14"},
-		{src:"images/cellpage8_atlas_15.png?1665288895148", id:"cellpage8_atlas_15"},
-		{src:"images/cellpage8_atlas_16.png?1665288895148", id:"cellpage8_atlas_16"},
-		{src:"images/cellpage8_atlas_17.png?1665288895148", id:"cellpage8_atlas_17"},
-		{src:"images/cellpage8_atlas_18.png?1665288895148", id:"cellpage8_atlas_18"},
-		{src:"images/cellpage8_atlas_19.png?1665288895148", id:"cellpage8_atlas_19"},
-		{src:"images/cellpage8_atlas_20.png?1665288895148", id:"cellpage8_atlas_20"}
+		{src:"images/cellpage8_atlas_1.png?1665291200517", id:"cellpage8_atlas_1"},
+		{src:"images/cellpage8_atlas_2.png?1665291200517", id:"cellpage8_atlas_2"},
+		{src:"images/cellpage8_atlas_3.png?1665291200518", id:"cellpage8_atlas_3"},
+		{src:"images/cellpage8_atlas_4.png?1665291200518", id:"cellpage8_atlas_4"},
+		{src:"images/cellpage8_atlas_5.png?1665291200518", id:"cellpage8_atlas_5"},
+		{src:"images/cellpage8_atlas_6.png?1665291200518", id:"cellpage8_atlas_6"},
+		{src:"images/cellpage8_atlas_7.png?1665291200519", id:"cellpage8_atlas_7"},
+		{src:"images/cellpage8_atlas_8.png?1665291200519", id:"cellpage8_atlas_8"},
+		{src:"images/cellpage8_atlas_9.png?1665291200519", id:"cellpage8_atlas_9"},
+		{src:"images/cellpage8_atlas_10.png?1665291200519", id:"cellpage8_atlas_10"},
+		{src:"images/cellpage8_atlas_11.png?1665291200519", id:"cellpage8_atlas_11"},
+		{src:"images/cellpage8_atlas_12.png?1665291200519", id:"cellpage8_atlas_12"},
+		{src:"images/cellpage8_atlas_13.png?1665291200519", id:"cellpage8_atlas_13"},
+		{src:"images/cellpage8_atlas_14.png?1665291200520", id:"cellpage8_atlas_14"},
+		{src:"images/cellpage8_atlas_15.png?1665291200520", id:"cellpage8_atlas_15"},
+		{src:"images/cellpage8_atlas_16.png?1665291200520", id:"cellpage8_atlas_16"},
+		{src:"images/cellpage8_atlas_17.png?1665291200520", id:"cellpage8_atlas_17"},
+		{src:"images/cellpage8_atlas_18.png?1665291200520", id:"cellpage8_atlas_18"},
+		{src:"images/cellpage8_atlas_19.png?1665291200520", id:"cellpage8_atlas_19"},
+		{src:"images/cellpage8_atlas_20.png?1665291200520", id:"cellpage8_atlas_20"}
 	],
 	preloads: []
 };

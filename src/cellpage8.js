@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"cellpage8_atlas_1", frames: [[1730,0,206,137],[1542,0,186,186],[1938,139,88,167],[1730,139,206,137],[1750,278,88,167],[1542,278,206,137],[1938,0,108,137],[678,542,676,350],[1356,542,676,350],[0,1304,676,235],[678,894,676,350],[1356,894,676,350],[678,1478,676,235],[0,952,676,350],[0,542,676,408],[0,0,512,540],[514,0,512,540],[1028,0,512,540],[0,1715,1024,149],[678,1246,1024,230],[0,1866,1024,94]]},
+		{name:"cellpage8_atlas_1", frames: [[866,1552,206,137],[678,1552,186,186],[1912,1762,88,167],[1074,1552,206,137],[514,0,88,167],[1704,1762,206,137],[1704,1901,108,137],[514,1288,767,262],[1192,704,767,262],[678,0,676,350],[1356,0,676,350],[1283,1288,676,235],[678,352,676,350],[1356,352,676,350],[1283,1525,676,235],[514,704,676,350],[0,1626,676,408],[0,0,512,540],[0,542,512,540],[0,1084,512,540],[678,1762,1024,149],[514,1056,1024,230],[678,1913,1024,94]]},
 		{name:"cellpage8_atlas_2", frames: [[0,0,512,540],[0,542,512,540],[0,1084,512,540],[514,0,512,540],[1028,0,512,540],[514,542,512,540],[514,1084,512,540],[1028,542,512,540],[1028,1084,512,540]]},
 		{name:"cellpage8_atlas_3", frames: [[0,0,512,540],[0,542,512,540],[0,1084,512,540],[514,0,512,540],[1028,0,512,540],[514,542,512,540],[514,1084,512,540],[1028,542,512,540],[1028,1084,512,540]]},
 		{name:"cellpage8_atlas_4", frames: [[0,0,512,540],[0,542,512,540],[0,1084,512,540],[514,0,512,540],[1028,0,512,540],[514,542,512,540],[514,1084,512,540],[1028,542,512,540],[1028,1084,512,540]]},
@@ -95,77 +95,91 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_29 = function() {
+(lib.CachedBmp_20 = function() {
 	this.initialize(ss["cellpage8_atlas_1"]);
 	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_28 = function() {
+(lib.CachedBmp_19 = function() {
 	this.initialize(ss["cellpage8_atlas_1"]);
 	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_27 = function() {
-	this.initialize(ss["cellpage8_atlas_9"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_26 = function() {
+(lib.CachedBmp_11 = function() {
 	this.initialize(ss["cellpage8_atlas_1"]);
 	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_25 = function() {
+(lib.CachedBmp_10 = function() {
 	this.initialize(ss["cellpage8_atlas_1"]);
 	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_24 = function() {
+(lib.CachedBmp_9 = function() {
+	this.initialize(ss["cellpage8_atlas_9"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_8 = function() {
 	this.initialize(ss["cellpage8_atlas_1"]);
 	this.gotoAndStop(11);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_23 = function() {
+(lib.CachedBmp_7 = function() {
 	this.initialize(ss["cellpage8_atlas_1"]);
 	this.gotoAndStop(12);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_22 = function() {
+(lib.CachedBmp_6 = function() {
 	this.initialize(ss["cellpage8_atlas_1"]);
 	this.gotoAndStop(13);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_21 = function() {
-	this.initialize(ss["cellpage8_atlas_9"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_20 = function() {
+(lib.CachedBmp_5 = function() {
 	this.initialize(ss["cellpage8_atlas_1"]);
 	this.gotoAndStop(14);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_19 = function() {
+(lib.CachedBmp_4 = function() {
+	this.initialize(ss["cellpage8_atlas_1"]);
+	this.gotoAndStop(15);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_3 = function() {
+	this.initialize(ss["cellpage8_atlas_9"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_2 = function() {
+	this.initialize(ss["cellpage8_atlas_1"]);
+	this.gotoAndStop(16);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_1 = function() {
 	this.initialize(ss["cellpage8_atlas_9"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
@@ -643,21 +657,21 @@ lib.ssMetadata = [
 
 (lib.coverpageseq_00128 = function() {
 	this.initialize(ss["cellpage8_atlas_1"]);
-	this.gotoAndStop(15);
+	this.gotoAndStop(17);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.coverpageseq_00129 = function() {
 	this.initialize(ss["cellpage8_atlas_1"]);
-	this.gotoAndStop(16);
+	this.gotoAndStop(18);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.coverpageseq_00130 = function() {
 	this.initialize(ss["cellpage8_atlas_1"]);
-	this.gotoAndStop(17);
+	this.gotoAndStop(19);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -734,14 +748,14 @@ lib.ssMetadata = [
 
 (lib.SamplePageweb_01 = function() {
 	this.initialize(ss["cellpage8_atlas_1"]);
-	this.gotoAndStop(18);
+	this.gotoAndStop(20);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.SamplePageweb_02 = function() {
 	this.initialize(ss["cellpage8_atlas_1"]);
-	this.gotoAndStop(19);
+	this.gotoAndStop(21);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -762,7 +776,7 @@ lib.ssMetadata = [
 
 (lib.SamplePageweb_05 = function() {
 	this.initialize(ss["cellpage8_atlas_1"]);
-	this.gotoAndStop(20);
+	this.gotoAndStop(22);
 }).prototype = p = new cjs.Sprite();
 // helper functions:
 
@@ -1196,7 +1210,7 @@ if (reversed == null) { reversed = false; }
 	props.reversed = reversed;
 	cjs.MovieClip.apply(this,[props]);
 
-	this.actionFrames = [1,2,4,13,23,33,43,53,63,73,83,93,103,113,123,133,143,153,159];
+	this.actionFrames = [1,2,4,13,23,33,43,53,63,73,83,93,103,113,114,123,133,143,153,159];
 	// timeline functions:
 	this.frame_1 = function() {
 		/* Stop at This Frame
@@ -1408,7 +1422,14 @@ if (reversed == null) { reversed = false; }
 		{
 			this.gotoAndPlay(105);
 		}
+	}
+	this.frame_4 = function() {
+		/* Stop at This Frame
+		The  timeline will stop/pause at the frame where you insert this code.
+		Can also be used to stop/pause the timeline of movieclips.
+		*/
 		
+		this.stop();
 		
 		/* Click to Go to Frame and Play
 		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and continues playback from that frame.
@@ -1419,9 +1440,9 @@ if (reversed == null) { reversed = false; }
 		2.Frame numbers in EaselJS start at 0 instead of 1
 		*/
 		
-		this.page8_nextpage.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_17.bind(this));
+		this.page8_nextpage.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_27.bind(this));
 		
-		function fl_ClickToGoToAndPlayFromFrame_17()
+		function fl_ClickToGoToAndPlayFromFrame_27()
 		{
 			this.gotoAndPlay(155);
 		}
@@ -1436,20 +1457,199 @@ if (reversed == null) { reversed = false; }
 		2.Frame numbers in EaselJS start at 0 instead of 1
 		*/
 		
-		this.page8_prevpage.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_19.bind(this));
+		this.page8_prevpage.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_28.bind(this));
 		
-		function fl_ClickToGoToAndPlayFromFrame_19()
+		function fl_ClickToGoToAndPlayFromFrame_28()
 		{
 			this.gotoAndPlay(145);
 		}
-	}
-	this.frame_4 = function() {
-		/* Stop at This Frame
-		The  timeline will stop/pause at the frame where you insert this code.
-		Can also be used to stop/pause the timeline of movieclips.
+		
+		
+		/* Click to Go to Frame and Play
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and continues playback from that frame.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
 		*/
 		
-		this.stop();
+		this.plasma_membrane.addEventListener("click", fl_ClickToGoToAndPlayFromFrame.bind(this));
+		
+		function fl_ClickToGoToAndPlayFromFrame()
+		{
+			this.gotoAndPlay(6);
+		}
+		
+		
+		/* Click to Go to Frame and Play
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and continues playback from that frame.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		this.nucleus.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_2.bind(this));
+		
+		function fl_ClickToGoToAndPlayFromFrame_2()
+		{
+			this.gotoAndPlay(15);
+		}
+		
+		
+		/* Click to Go to Frame and Play
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and continues playback from that frame.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		this.nucleolus.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_3.bind(this));
+		
+		function fl_ClickToGoToAndPlayFromFrame_3()
+		{
+			this.gotoAndPlay(25);
+		}
+		
+		
+		/* Click to Go to Frame and Play
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and continues playback from that frame.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		this.cytoplasm.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_4.bind(this));
+		
+		function fl_ClickToGoToAndPlayFromFrame_4()
+		{
+			this.gotoAndPlay(35);
+		}
+		
+		
+		/* Click to Go to Frame and Play
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and continues playback from that frame.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		this.mithocondria.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_5.bind(this));
+		
+		function fl_ClickToGoToAndPlayFromFrame_5()
+		{
+			this.gotoAndPlay(45);
+		}
+		
+		
+		/* Click to Go to Frame and Play
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and continues playback from that frame.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		this.sm_endosplasmic.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_6.bind(this));
+		
+		function fl_ClickToGoToAndPlayFromFrame_6()
+		{
+			this.gotoAndPlay(55);
+		}
+		
+		
+		/* Click to Go to Frame and Play
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and continues playback from that frame.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		this.ribosome.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_7.bind(this));
+		
+		function fl_ClickToGoToAndPlayFromFrame_7()
+		{
+			this.gotoAndPlay(65);
+		}
+		
+		
+		/* Click to Go to Frame and Play
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and continues playback from that frame.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		this.golgi_apparatus.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_8.bind(this));
+		
+		function fl_ClickToGoToAndPlayFromFrame_8()
+		{
+			this.gotoAndPlay(75);
+		}
+		
+		
+		/* Click to Go to Frame and Play
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and continues playback from that frame.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		this.lysosome.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_9.bind(this));
+		
+		function fl_ClickToGoToAndPlayFromFrame_9()
+		{
+			this.gotoAndPlay(85);
+		}
+		
+		
+		/* Click to Go to Frame and Play
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and continues playback from that frame.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		this.ro_endoplasmic.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_10.bind(this));
+		
+		function fl_ClickToGoToAndPlayFromFrame_10()
+		{
+			this.gotoAndPlay(95);
+		}
+		
+		
+		/* Click to Go to Frame and Play
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and continues playback from that frame.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		this.centrioles.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_11.bind(this));
+		
+		function fl_ClickToGoToAndPlayFromFrame_11()
+		{
+			this.gotoAndPlay(105);
+		}
 	}
 	this.frame_13 = function() {
 		/* Stop at This Frame
@@ -1719,11 +1919,52 @@ if (reversed == null) { reversed = false; }
 		*/
 		
 		
-		this.centrioles_back.addEventListener("click", fl_ClickToGoToAndStopAtFrame_11.bind(this));
+		this.centrioles_back.addEventListener("click", fl_ClickToGoToAndStopAtFrame_13.bind(this));
 		
-		function fl_ClickToGoToAndStopAtFrame_11()
+		function fl_ClickToGoToAndStopAtFrame_13()
 		{
 			this.gotoAndStop(3);
+		}
+	}
+	this.frame_114 = function() {
+		/* Stop at This Frame
+		The  timeline will stop/pause at the frame where you insert this code.
+		Can also be used to stop/pause the timeline of movieclips.
+		*/
+		
+		this.stop();
+		
+		/* Click to Go to Frame and Play
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and continues playback from that frame.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		this.page8_nextpage.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_25.bind(this));
+		
+		function fl_ClickToGoToAndPlayFromFrame_25()
+		{
+			this.gotoAndPlay(155);
+		}
+		
+		
+		/* Click to Go to Frame and Play
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and continues playback from that frame.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		this.page8_prevpage.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_26.bind(this));
+		
+		function fl_ClickToGoToAndPlayFromFrame_26()
+		{
+			this.gotoAndPlay(135);
 		}
 	}
 	this.frame_123 = function() {
@@ -1764,7 +2005,7 @@ if (reversed == null) { reversed = false; }
 		
 		function fl_ClickToGoToAndPlayFromFrame_23()
 		{
-			this.gotoAndPlay(1);
+			this.gotoAndPlay(2);
 		}
 	}
 	this.frame_133 = function() {
@@ -1857,25 +2098,6 @@ if (reversed == null) { reversed = false; }
 		
 		this.stop();
 		
-		
-		/* Click to Go to Frame and Stop
-		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
-		Can be used on the main timeline or on movie clip timelines.
-		
-		Instructions:
-		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
-		2.Frame numbers in EaselJS start at 0 instead of 1
-		*/
-		
-		
-		this.page4_nextpage.addEventListener("click", fl_ClickToGoToAndStopAtFrame_12.bind(this));
-		
-		function fl_ClickToGoToAndStopAtFrame_12()
-		{
-			this.gotoAndStop(3);
-		}
-		
-		
 		/* Click to Go to Frame and Play
 		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and continues playback from that frame.
 		Can be used on the main timeline or on movie clip timelines.
@@ -1891,6 +2113,24 @@ if (reversed == null) { reversed = false; }
 		{
 			this.gotoAndPlay(135);
 		}
+		
+		
+		
+		/* Click to Go to Frame and Play
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and continues playback from that frame.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		this.page4_nextpage.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_30.bind(this));
+		
+		function fl_ClickToGoToAndPlayFromFrame_30()
+		{
+			this.gotoAndPlay(3);
+		}
 	}
 	this.frame_159 = function() {
 		/* Stop at This Frame
@@ -1902,215 +2142,17 @@ if (reversed == null) { reversed = false; }
 	}
 
 	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).wait(1).call(this.frame_1).wait(1).call(this.frame_2).wait(2).call(this.frame_4).wait(9).call(this.frame_13).wait(10).call(this.frame_23).wait(10).call(this.frame_33).wait(10).call(this.frame_43).wait(10).call(this.frame_53).wait(10).call(this.frame_63).wait(10).call(this.frame_73).wait(10).call(this.frame_83).wait(10).call(this.frame_93).wait(10).call(this.frame_103).wait(10).call(this.frame_113).wait(10).call(this.frame_123).wait(10).call(this.frame_133).wait(10).call(this.frame_143).wait(10).call(this.frame_153).wait(6).call(this.frame_159).wait(1));
-
-	// Layer_15
-	this.instance = new lib.CachedBmp_19();
-	this.instance.setTransform(297.35,544.45,0.5,0.5);
-
-	this.centrioles_back = new lib.back();
-	this.centrioles_back.name = "centrioles_back";
-	this.centrioles_back.setTransform(744.2,544.4,1.807,1.7177,0,0,0,28.5,18.9);
-	new cjs.ButtonHelper(this.centrioles_back, 0, 1, 2, false, new lib.back(), 3);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.centrioles_back},{t:this.instance}]},113).to({state:[]},1).wait(46));
-
-	// Layer_2_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy
-	this.instance_1 = new lib.Plane();
-	this.instance_1.setTransform(650.65,446.4,0.3397,0.0279,0,0,0,233,179.5);
-	this.instance_1._off = true;
-
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(104).to({_off:false},0).to({scaleX:1,scaleY:1,x:512.35,y:686},9).to({_off:true},1).wait(46));
-
-	// Layer_14
-	this.instance_2 = new lib.CachedBmp_20();
-	this.instance_2.setTransform(299,545.05,0.5,0.5);
-
-	this.rer_back = new lib.back();
-	this.rer_back.name = "rer_back";
-	this.rer_back.setTransform(745.85,542.5,1.807,1.7177,0,0,0,28.5,18.9);
-	new cjs.ButtonHelper(this.rer_back, 0, 1, 2, false, new lib.back(), 3);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.rer_back},{t:this.instance_2}]},103).to({state:[]},1).wait(56));
-
-	// Layer_2_copy_copy_copy_copy_copy_copy_copy_copy_copy
-	this.instance_3 = new lib.Plane();
-	this.instance_3.setTransform(748.65,562.4,0.3397,0.0279,0,0,0,233,179.5);
-	this.instance_3._off = true;
-
-	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(94).to({_off:false},0).to({scaleX:1,scaleY:1,x:512.35,y:686},9).to({_off:true},1).wait(56));
-
-	// Layer_13
-	this.instance_4 = new lib.CachedBmp_21();
-	this.instance_4.setTransform(295.45,544.65,0.5,0.5);
-
-	this.lysosome_back = new lib.back();
-	this.lysosome_back.name = "lysosome_back";
-	this.lysosome_back.setTransform(744.3,544.4,1.807,1.7177,0,0,0,28.5,18.9);
-	new cjs.ButtonHelper(this.lysosome_back, 0, 1, 2, false, new lib.back(), 3);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.lysosome_back},{t:this.instance_4}]},93).to({state:[]},1).wait(66));
-
-	// Layer_2_copy_copy_copy_copy_copy_copy_copy_copy
-	this.instance_5 = new lib.Plane();
-	this.instance_5.setTransform(774.65,698.4,0.3397,0.0279,0,0,0,233,179.5);
-	this.instance_5._off = true;
-
-	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(84).to({_off:false},0).to({scaleX:1,scaleY:1,x:512.35,y:686},9).to({_off:true},1).wait(66));
-
-	// Layer_12
-	this.instance_6 = new lib.CachedBmp_22();
-	this.instance_6.setTransform(297.35,544.5,0.5,0.5);
-
-	this.gaparatus_back = new lib.back();
-	this.gaparatus_back.name = "gaparatus_back";
-	this.gaparatus_back.setTransform(744.2,541.95,1.807,1.7177,0,0,0,28.5,18.9);
-	new cjs.ButtonHelper(this.gaparatus_back, 0, 1, 2, false, new lib.back(), 3);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.gaparatus_back},{t:this.instance_6}]},83).to({state:[]},1).wait(76));
-
-	// Layer_2_copy_copy_copy_copy_copy_copy_copy
-	this.instance_7 = new lib.Plane();
-	this.instance_7.setTransform(764.65,792.4,0.3397,0.0279,0,0,0,233,179.5);
-	this.instance_7._off = true;
-
-	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(74).to({_off:false},0).to({scaleX:1,scaleY:1,x:512.35,y:686},9).to({_off:true},1).wait(76));
-
-	// Layer_11
-	this.instance_8 = new lib.CachedBmp_23();
-	this.instance_8.setTransform(299,546.95,0.5,0.5);
-
-	this.ribosome_back = new lib.back();
-	this.ribosome_back.name = "ribosome_back";
-	this.ribosome_back.setTransform(745.85,544.4,1.807,1.7177,0,0,0,28.5,18.9);
-	new cjs.ButtonHelper(this.ribosome_back, 0, 1, 2, false, new lib.back(), 3);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.ribosome_back},{t:this.instance_8}]},73).to({state:[]},1).wait(86));
-
-	// Layer_2_copy_copy_copy_copy_copy_copy
-	this.instance_9 = new lib.Plane();
-	this.instance_9.setTransform(720.65,860.4,0.3397,0.0279,0,0,0,233,179.5);
-	this.instance_9._off = true;
-
-	this.timeline.addTween(cjs.Tween.get(this.instance_9).wait(64).to({_off:false},0).to({scaleX:1,scaleY:1,x:512.35,y:686},9).to({_off:true},1).wait(86));
-
-	// Layer_10
-	this.instance_10 = new lib.CachedBmp_24();
-	this.instance_10.setTransform(298.2,543.55,0.5,0.5);
-
-	this.ser_back = new lib.back();
-	this.ser_back.name = "ser_back";
-	this.ser_back.setTransform(744.6,543,1.807,1.7177,0,0,0,28.5,18.9);
-	new cjs.ButtonHelper(this.ser_back, 0, 1, 2, false, new lib.back(), 3);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.ser_back},{t:this.instance_10}]},63).to({state:[]},1).wait(96));
-
-	// Layer_2_copy_copy_copy_copy_copy
-	this.instance_11 = new lib.Plane();
-	this.instance_11.setTransform(594.65,966.4,0.3397,0.0279,0,0,0,233,179.5);
-	this.instance_11._off = true;
-
-	this.timeline.addTween(cjs.Tween.get(this.instance_11).wait(54).to({_off:false},0).to({scaleX:1,scaleY:1,x:512.35,y:686},9).to({_off:true},1).wait(96));
-
-	// Layer_9
-	this.instance_12 = new lib.CachedBmp_25();
-	this.instance_12.setTransform(288,650.35,0.5,0.5);
-
-	this.mitochondria_back = new lib.back();
-	this.mitochondria_back.name = "mitochondria_back";
-	this.mitochondria_back.setTransform(735.3,647.8,1.807,1.7177,0,0,0,28.5,18.9);
-	new cjs.ButtonHelper(this.mitochondria_back, 0, 1, 2, false, new lib.back(), 3);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.mitochondria_back},{t:this.instance_12}]},53).to({state:[]},1).wait(106));
-
-	// Layer_2_copy_copy_copy_copy
-	this.instance_13 = new lib.Plane();
-	this.instance_13.setTransform(294.65,916.4,0.3397,0.0279,0,0,0,233,179.5);
-	this.instance_13._off = true;
-
-	this.timeline.addTween(cjs.Tween.get(this.instance_13).wait(44).to({_off:false},0).to({scaleX:1,scaleY:1,x:512.35,y:686},9).to({_off:true},1).wait(106));
-
-	// Layer_8
-	this.instance_14 = new lib.CachedBmp_26();
-	this.instance_14.setTransform(297.35,543.7,0.5,0.5);
-
-	this.cytoplasm_back = new lib.back();
-	this.cytoplasm_back.name = "cytoplasm_back";
-	this.cytoplasm_back.setTransform(745.75,542.25,1.807,1.7177,0,0,0,28.5,18.9);
-	new cjs.ButtonHelper(this.cytoplasm_back, 0, 1, 2, false, new lib.back(), 3);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.cytoplasm_back},{t:this.instance_14}]},43).to({state:[]},1).wait(116));
-
-	// Layer_2_copy_copy_copy
-	this.instance_15 = new lib.Plane();
-	this.instance_15.setTransform(234.65,806.4,0.3397,0.0279,0,0,0,233,179.5);
-	this.instance_15._off = true;
-
-	this.timeline.addTween(cjs.Tween.get(this.instance_15).wait(34).to({_off:false},0).to({scaleX:1,scaleY:1,x:512.35,y:686},9).to({_off:true},1).wait(116));
-
-	// Layer_7
-	this.instance_16 = new lib.CachedBmp_27();
-	this.instance_16.setTransform(299,543.3,0.5,0.5);
-
-	this.nucleolus_back = new lib.back();
-	this.nucleolus_back.name = "nucleolus_back";
-	this.nucleolus_back.setTransform(745.85,542.25,1.807,1.7177,0,0,0,28.5,18.9);
-	new cjs.ButtonHelper(this.nucleolus_back, 0, 1, 2, false, new lib.back(), 3);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.nucleolus_back},{t:this.instance_16}]},33).to({state:[]},1).wait(126));
-
-	// Layer_2_copy_copy
-	this.instance_17 = new lib.Plane();
-	this.instance_17.setTransform(204.65,640.4,0.3397,0.0279,0,0,0,233,179.5);
-	this.instance_17._off = true;
-
-	this.timeline.addTween(cjs.Tween.get(this.instance_17).wait(24).to({_off:false},0).to({scaleX:1,scaleY:1,x:512.35,y:686},9).to({_off:true},1).wait(126));
-
-	// Layer_6
-	this.instance_18 = new lib.CachedBmp_28();
-	this.instance_18.setTransform(299,545.3,0.5,0.5);
-
-	this.nucleus_back = new lib.back();
-	this.nucleus_back.name = "nucleus_back";
-	this.nucleus_back.setTransform(745.85,542.75,1.807,1.7177,0,0,0,28.5,18.9);
-	new cjs.ButtonHelper(this.nucleus_back, 0, 1, 2, false, new lib.back(), 3);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.nucleus_back},{t:this.instance_18}]},23).to({state:[]},1).wait(136));
-
-	// Layer_2_copy
-	this.instance_19 = new lib.Plane();
-	this.instance_19.setTransform(234.65,586.4,0.3397,0.0279,0,0,0,233,179.5);
-	this.instance_19._off = true;
-
-	this.timeline.addTween(cjs.Tween.get(this.instance_19).wait(14).to({_off:false},0).to({scaleX:1,scaleY:1,x:512.35,y:686},9).to({_off:true},1).wait(136));
-
-	// Layer_5
-	this.plasma_membrane_back = new lib.back();
-	this.plasma_membrane_back.name = "plasma_membrane_back";
-	this.plasma_membrane_back.setTransform(745.85,544.4,1.807,1.7177,0,0,0,28.5,18.9);
-	new cjs.ButtonHelper(this.plasma_membrane_back, 0, 1, 2, false, new lib.back(), 3);
-
-	this.instance_20 = new lib.CachedBmp_29();
-	this.instance_20.setTransform(299,546.95,0.5,0.5);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_20},{t:this.plasma_membrane_back}]},13).to({state:[]},1).wait(146));
-
-	// Layer_2
-	this.instance_21 = new lib.Plane();
-	this.instance_21.setTransform(274.65,506.4,0.3397,0.0279,0,0,0,233,179.5);
-	this.instance_21._off = true;
-
-	this.timeline.addTween(cjs.Tween.get(this.instance_21).wait(5).to({_off:false},0).to({scaleX:1,scaleY:1,x:512.35,y:686},8).to({_off:true},1).wait(146));
+	this.timeline.addTween(cjs.Tween.get(this).wait(1).call(this.frame_1).wait(1).call(this.frame_2).wait(2).call(this.frame_4).wait(9).call(this.frame_13).wait(10).call(this.frame_23).wait(10).call(this.frame_33).wait(10).call(this.frame_43).wait(10).call(this.frame_53).wait(10).call(this.frame_63).wait(10).call(this.frame_73).wait(10).call(this.frame_83).wait(10).call(this.frame_93).wait(10).call(this.frame_103).wait(10).call(this.frame_113).wait(1).call(this.frame_114).wait(9).call(this.frame_123).wait(10).call(this.frame_133).wait(10).call(this.frame_143).wait(10).call(this.frame_153).wait(6).call(this.frame_159).wait(2));
 
 	// Layer_4
 	this.page8_prevpage = new lib.nextpage();
 	this.page8_prevpage.name = "page8_prevpage";
-	this.page8_prevpage.setTransform(51.75,718.8,1,1,180,0,0,27.7,684.8);
+	this.page8_prevpage.setTransform(50.1,719.6,1,1,180,0,0,27.7,684.8);
 	new cjs.ButtonHelper(this.page8_prevpage, 0, 1, 2, false, new lib.nextpage(), 3);
 
 	this.page8_nextpage = new lib.nextpage();
 	this.page8_nextpage.name = "page8_nextpage";
-	this.page8_nextpage.setTransform(942.85,35.65);
+	this.page8_nextpage.setTransform(947.85,36.45);
 	new cjs.ButtonHelper(this.page8_nextpage, 0, 1, 2, false, new lib.nextpage(), 3);
 
 	this.page1_prevpage = new lib.nextpage();
@@ -2153,7 +2195,205 @@ if (reversed == null) { reversed = false; }
 	this.page4_nextpage.setTransform(942.85,35.65);
 	new cjs.ButtonHelper(this.page4_nextpage, 0, 1, 2, false, new lib.nextpage(), 3);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.page8_nextpage},{t:this.page8_prevpage}]},114).to({state:[]},1).to({state:[{t:this.page1_nextpage},{t:this.page1_prevpage}]},8).to({state:[]},1).to({state:[{t:this.page2_nextpage},{t:this.page2_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page3_nextpage},{t:this.page3_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page4_nextpage},{t:this.page4_prevpage}]},9).to({state:[]},1).wait(6));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.page8_nextpage,p:{x:947.85,y:36.45}},{t:this.page8_prevpage,p:{x:50.1,y:719.6}}]},4).to({state:[]},1).to({state:[{t:this.page8_nextpage,p:{x:944.5,y:35.65}},{t:this.page8_prevpage,p:{x:51.75,y:718.8}}]},109).to({state:[]},1).to({state:[{t:this.page1_nextpage},{t:this.page1_prevpage}]},8).to({state:[]},1).to({state:[{t:this.page2_nextpage},{t:this.page2_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page3_nextpage},{t:this.page3_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page4_nextpage},{t:this.page4_prevpage}]},9).to({state:[]},1).wait(7));
+
+	// Layer_15
+	this.instance = new lib.CachedBmp_1();
+	this.instance.setTransform(297.35,544.45,0.5,0.5);
+
+	this.centrioles_back = new lib.back();
+	this.centrioles_back.name = "centrioles_back";
+	this.centrioles_back.setTransform(744.2,544.4,1.807,1.7177,0,0,0,28.5,18.9);
+	new cjs.ButtonHelper(this.centrioles_back, 0, 1, 2, false, new lib.back(), 3);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.centrioles_back},{t:this.instance}]},113).to({state:[]},1).to({state:[]},46).wait(1));
+
+	// Layer_2_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy
+	this.instance_1 = new lib.Plane();
+	this.instance_1.setTransform(650.65,446.4,0.3397,0.0279,0,0,0,233,179.5);
+	this.instance_1._off = true;
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(104).to({_off:false},0).to({scaleX:1,scaleY:1,x:512.35,y:686},9).to({_off:true},1).wait(47));
+
+	// Layer_14
+	this.instance_2 = new lib.CachedBmp_2();
+	this.instance_2.setTransform(299,545.05,0.5,0.5);
+
+	this.rer_back = new lib.back();
+	this.rer_back.name = "rer_back";
+	this.rer_back.setTransform(745.85,542.5,1.807,1.7177,0,0,0,28.5,18.9);
+	new cjs.ButtonHelper(this.rer_back, 0, 1, 2, false, new lib.back(), 3);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.rer_back},{t:this.instance_2}]},103).to({state:[]},1).to({state:[]},56).wait(1));
+
+	// Layer_2_copy_copy_copy_copy_copy_copy_copy_copy_copy
+	this.instance_3 = new lib.Plane();
+	this.instance_3.setTransform(748.65,562.4,0.3397,0.0279,0,0,0,233,179.5);
+	this.instance_3._off = true;
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(94).to({_off:false},0).to({scaleX:1,scaleY:1,x:512.35,y:686},9).to({_off:true},1).wait(57));
+
+	// Layer_13
+	this.instance_4 = new lib.CachedBmp_3();
+	this.instance_4.setTransform(295.45,544.65,0.5,0.5);
+
+	this.lysosome_back = new lib.back();
+	this.lysosome_back.name = "lysosome_back";
+	this.lysosome_back.setTransform(744.3,544.4,1.807,1.7177,0,0,0,28.5,18.9);
+	new cjs.ButtonHelper(this.lysosome_back, 0, 1, 2, false, new lib.back(), 3);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.lysosome_back},{t:this.instance_4}]},93).to({state:[]},1).to({state:[]},66).wait(1));
+
+	// Layer_2_copy_copy_copy_copy_copy_copy_copy_copy
+	this.instance_5 = new lib.Plane();
+	this.instance_5.setTransform(774.65,698.4,0.3397,0.0279,0,0,0,233,179.5);
+	this.instance_5._off = true;
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(84).to({_off:false},0).to({scaleX:1,scaleY:1,x:512.35,y:686},9).to({_off:true},1).wait(67));
+
+	// Layer_12
+	this.instance_6 = new lib.CachedBmp_4();
+	this.instance_6.setTransform(297.35,544.5,0.5,0.5);
+
+	this.gaparatus_back = new lib.back();
+	this.gaparatus_back.name = "gaparatus_back";
+	this.gaparatus_back.setTransform(744.2,541.95,1.807,1.7177,0,0,0,28.5,18.9);
+	new cjs.ButtonHelper(this.gaparatus_back, 0, 1, 2, false, new lib.back(), 3);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.gaparatus_back},{t:this.instance_6}]},83).to({state:[]},1).to({state:[]},76).wait(1));
+
+	// Layer_2_copy_copy_copy_copy_copy_copy_copy
+	this.instance_7 = new lib.Plane();
+	this.instance_7.setTransform(764.65,792.4,0.3397,0.0279,0,0,0,233,179.5);
+	this.instance_7._off = true;
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(74).to({_off:false},0).to({scaleX:1,scaleY:1,x:512.35,y:686},9).to({_off:true},1).wait(77));
+
+	// Layer_11
+	this.instance_8 = new lib.CachedBmp_5();
+	this.instance_8.setTransform(299,546.95,0.5,0.5);
+
+	this.ribosome_back = new lib.back();
+	this.ribosome_back.name = "ribosome_back";
+	this.ribosome_back.setTransform(745.85,544.4,1.807,1.7177,0,0,0,28.5,18.9);
+	new cjs.ButtonHelper(this.ribosome_back, 0, 1, 2, false, new lib.back(), 3);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.ribosome_back},{t:this.instance_8}]},73).to({state:[]},1).to({state:[]},86).wait(1));
+
+	// Layer_2_copy_copy_copy_copy_copy_copy
+	this.instance_9 = new lib.Plane();
+	this.instance_9.setTransform(720.65,860.4,0.3397,0.0279,0,0,0,233,179.5);
+	this.instance_9._off = true;
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_9).wait(64).to({_off:false},0).to({scaleX:1,scaleY:1,x:512.35,y:686},9).to({_off:true},1).wait(87));
+
+	// Layer_10
+	this.instance_10 = new lib.CachedBmp_6();
+	this.instance_10.setTransform(298.2,543.55,0.5,0.5);
+
+	this.ser_back = new lib.back();
+	this.ser_back.name = "ser_back";
+	this.ser_back.setTransform(744.6,543,1.807,1.7177,0,0,0,28.5,18.9);
+	new cjs.ButtonHelper(this.ser_back, 0, 1, 2, false, new lib.back(), 3);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.ser_back},{t:this.instance_10}]},63).to({state:[]},1).to({state:[]},96).wait(1));
+
+	// Layer_2_copy_copy_copy_copy_copy
+	this.instance_11 = new lib.Plane();
+	this.instance_11.setTransform(594.65,966.4,0.3397,0.0279,0,0,0,233,179.5);
+	this.instance_11._off = true;
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_11).wait(54).to({_off:false},0).to({scaleX:1,scaleY:1,x:512.35,y:686},9).to({_off:true},1).wait(97));
+
+	// Layer_9
+	this.instance_12 = new lib.CachedBmp_7();
+	this.instance_12.setTransform(295.65,543.9,0.5,0.5);
+
+	this.mitochondria_back = new lib.back();
+	this.mitochondria_back.name = "mitochondria_back";
+	this.mitochondria_back.setTransform(742.95,541.35,1.807,1.7177,0,0,0,28.5,18.9);
+	new cjs.ButtonHelper(this.mitochondria_back, 0, 1, 2, false, new lib.back(), 3);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.mitochondria_back},{t:this.instance_12}]},53).to({state:[]},1).to({state:[]},106).wait(1));
+
+	// Layer_2_copy_copy_copy_copy
+	this.instance_13 = new lib.Plane();
+	this.instance_13.setTransform(294.65,916.4,0.3397,0.0279,0,0,0,233,179.5);
+	this.instance_13._off = true;
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_13).wait(44).to({_off:false},0).to({scaleX:1,scaleY:1,x:512.35,y:686},9).to({_off:true},1).wait(107));
+
+	// Layer_8
+	this.instance_14 = new lib.CachedBmp_8();
+	this.instance_14.setTransform(297.35,543.7,0.5,0.5);
+
+	this.cytoplasm_back = new lib.back();
+	this.cytoplasm_back.name = "cytoplasm_back";
+	this.cytoplasm_back.setTransform(745.75,542.25,1.807,1.7177,0,0,0,28.5,18.9);
+	new cjs.ButtonHelper(this.cytoplasm_back, 0, 1, 2, false, new lib.back(), 3);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.cytoplasm_back},{t:this.instance_14}]},43).to({state:[]},1).to({state:[]},116).wait(1));
+
+	// Layer_2_copy_copy_copy
+	this.instance_15 = new lib.Plane();
+	this.instance_15.setTransform(234.65,806.4,0.3397,0.0279,0,0,0,233,179.5);
+	this.instance_15._off = true;
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_15).wait(34).to({_off:false},0).to({scaleX:1,scaleY:1,x:512.35,y:686},9).to({_off:true},1).wait(117));
+
+	// Layer_7
+	this.instance_16 = new lib.CachedBmp_9();
+	this.instance_16.setTransform(299,543.3,0.5,0.5);
+
+	this.nucleolus_back = new lib.back();
+	this.nucleolus_back.name = "nucleolus_back";
+	this.nucleolus_back.setTransform(745.85,542.25,1.807,1.7177,0,0,0,28.5,18.9);
+	new cjs.ButtonHelper(this.nucleolus_back, 0, 1, 2, false, new lib.back(), 3);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.nucleolus_back},{t:this.instance_16}]},33).to({state:[]},1).to({state:[]},126).wait(1));
+
+	// Layer_2_copy_copy
+	this.instance_17 = new lib.Plane();
+	this.instance_17.setTransform(204.65,640.4,0.3397,0.0279,0,0,0,233,179.5);
+	this.instance_17._off = true;
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_17).wait(24).to({_off:false},0).to({scaleX:1,scaleY:1,x:512.35,y:686},9).to({_off:true},1).wait(127));
+
+	// Layer_6
+	this.instance_18 = new lib.CachedBmp_10();
+	this.instance_18.setTransform(299,545.3,0.5,0.5);
+
+	this.nucleus_back = new lib.back();
+	this.nucleus_back.name = "nucleus_back";
+	this.nucleus_back.setTransform(745.85,542.75,1.807,1.7177,0,0,0,28.5,18.9);
+	new cjs.ButtonHelper(this.nucleus_back, 0, 1, 2, false, new lib.back(), 3);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.nucleus_back},{t:this.instance_18}]},23).to({state:[]},1).to({state:[]},136).wait(1));
+
+	// Layer_2_copy
+	this.instance_19 = new lib.Plane();
+	this.instance_19.setTransform(234.65,586.4,0.3397,0.0279,0,0,0,233,179.5);
+	this.instance_19._off = true;
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_19).wait(14).to({_off:false},0).to({scaleX:1,scaleY:1,x:512.35,y:686},9).to({_off:true},1).wait(137));
+
+	// Layer_5
+	this.plasma_membrane_back = new lib.back();
+	this.plasma_membrane_back.name = "plasma_membrane_back";
+	this.plasma_membrane_back.setTransform(745.85,544.4,1.807,1.7177,0,0,0,28.5,18.9);
+	new cjs.ButtonHelper(this.plasma_membrane_back, 0, 1, 2, false, new lib.back(), 3);
+
+	this.instance_20 = new lib.CachedBmp_11();
+	this.instance_20.setTransform(299,546.95,0.5,0.5);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_20},{t:this.plasma_membrane_back}]},13).to({state:[]},1).to({state:[]},146).wait(1));
+
+	// Layer_2
+	this.instance_21 = new lib.Plane();
+	this.instance_21.setTransform(274.65,506.4,0.3397,0.0279,0,0,0,233,179.5);
+	this.instance_21._off = true;
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_21).wait(5).to({_off:false},0).to({scaleX:1,scaleY:1,x:512.35,y:686},8).to({_off:true},1).wait(147));
 
 	// Layer_3
 	this.instance_22 = new lib.pageflip();
@@ -2163,7 +2403,7 @@ if (reversed == null) { reversed = false; }
 	this.shape.graphics.f().s("#78F9E2").ss(1,1,1).p("EhPmhwKMCfNAAAMAAADgVMifNAAAg");
 	this.shape.setTransform(512.825,719.575);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.shape,p:{x:512.825,y:719.575}},{t:this.instance_22,p:{x:512.75,y:719.6}}]},115).to({state:[]},5).to({state:[{t:this.shape,p:{x:510.275,y:718.275}},{t:this.instance_22,p:{x:510.2,y:718.3}}]},4).to({state:[]},5).to({state:[{t:this.shape,p:{x:510.275,y:718.275}},{t:this.instance_22,p:{x:510.2,y:718.3}}]},5).to({state:[]},5).to({state:[{t:this.shape,p:{x:510.275,y:718.275}},{t:this.instance_22,p:{x:510.2,y:718.3}}]},5).to({state:[]},5).to({state:[{t:this.shape,p:{x:510.275,y:718.275}},{t:this.instance_22,p:{x:510.2,y:718.3}}]},5).to({state:[]},5).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.shape,p:{x:512.825,y:719.575}},{t:this.instance_22,p:{x:512.75,y:719.6}}]},115).to({state:[]},5).to({state:[{t:this.shape,p:{x:510.275,y:718.275}},{t:this.instance_22,p:{x:510.2,y:718.3}}]},4).to({state:[]},5).to({state:[{t:this.shape,p:{x:510.275,y:718.275}},{t:this.instance_22,p:{x:510.2,y:718.3}}]},5).to({state:[]},5).to({state:[{t:this.shape,p:{x:510.275,y:718.275}},{t:this.instance_22,p:{x:510.2,y:718.3}}]},5).to({state:[]},5).to({state:[{t:this.shape,p:{x:510.275,y:718.275}},{t:this.instance_22,p:{x:510.2,y:718.3}}]},5).to({state:[]},5).wait(2));
 
 	// Layer_1
 	this.instance_23 = new lib.SampleCoveralpha();
@@ -2184,16 +2424,6 @@ if (reversed == null) { reversed = false; }
 	this.shape_2 = new cjs.Shape();
 	this.shape_2.graphics.f("#79B1A4").s().p("AjrDrIAAnWIHXAAIAAHWg");
 	this.shape_2.setTransform(964.8,53.35);
-
-	this.page8_prevpage_1 = new lib.nextpage();
-	this.page8_prevpage_1.name = "page8_prevpage_1";
-	this.page8_prevpage_1.setTransform(50.1,719.6,1,1,180,0,0,27.7,684.8);
-	new cjs.ButtonHelper(this.page8_prevpage_1, 0, 1, 2, false, new lib.nextpage(), 3);
-
-	this.page8_nextpage_1 = new lib.nextpage();
-	this.page8_nextpage_1.name = "page8_nextpage_1";
-	this.page8_nextpage_1.setTransform(947.85,36.45);
-	new cjs.ButtonHelper(this.page8_nextpage_1, 0, 1, 2, false, new lib.nextpage(), 3);
 
 	this.centrioles = new lib.Button();
 	this.centrioles.name = "centrioles";
@@ -2279,12 +2509,18 @@ if (reversed == null) { reversed = false; }
 	this.instance_33 = new lib.blankpage();
 	this.instance_33.setTransform(1,0);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.intromovie},{t:this.instance_23}]}).to({state:[{t:this.shape_2},{t:this.shape_1},{t:this.intromovie},{t:this.instance_23},{t:this.cover_nextpage}]},1).to({state:[{t:this.instance_28},{t:this.instance_27},{t:this.instance_26},{t:this.instance_25},{t:this.instance_24},{t:this.plasma_membrane},{t:this.nucleus},{t:this.nucleolus},{t:this.cytoplasm},{t:this.mithocondria},{t:this.sm_endosplasmic},{t:this.ribosome},{t:this.golgi_apparatus},{t:this.lysosome},{t:this.ro_endoplasmic},{t:this.centrioles},{t:this.page8_nextpage_1},{t:this.page8_prevpage_1}]},1).to({state:[{t:this.instance_28},{t:this.instance_27},{t:this.instance_26},{t:this.instance_25},{t:this.instance_24},{t:this.plasma_membrane},{t:this.nucleus},{t:this.nucleolus},{t:this.cytoplasm},{t:this.mithocondria},{t:this.sm_endosplasmic},{t:this.ribosome},{t:this.golgi_apparatus},{t:this.lysosome},{t:this.ro_endoplasmic},{t:this.centrioles}]},112).to({state:[{t:this.instance_29}]},1).to({state:[{t:this.instance_29}]},8).to({state:[{t:this.instance_30}]},1).to({state:[{t:this.instance_30}]},9).to({state:[{t:this.instance_31}]},1).to({state:[{t:this.instance_32}]},10).to({state:[{t:this.instance_33}]},10).wait(6));
+	this.instance_34 = new lib.CachedBmp_19();
+	this.instance_34.setTransform(318,613.75,0.5,0.5);
+
+	this.instance_35 = new lib.CachedBmp_20();
+	this.instance_35.setTransform(321.15,654.85,0.5,0.5);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.intromovie},{t:this.instance_23}]}).to({state:[{t:this.shape_2},{t:this.shape_1},{t:this.intromovie},{t:this.instance_23},{t:this.cover_nextpage}]},1).to({state:[{t:this.instance_28},{t:this.instance_27},{t:this.instance_26},{t:this.instance_25,p:{x:0}},{t:this.instance_24},{t:this.plasma_membrane},{t:this.nucleus},{t:this.nucleolus},{t:this.cytoplasm},{t:this.mithocondria},{t:this.sm_endosplasmic},{t:this.ribosome},{t:this.golgi_apparatus},{t:this.lysosome},{t:this.ro_endoplasmic},{t:this.centrioles}]},1).to({state:[{t:this.instance_28},{t:this.instance_27},{t:this.instance_26},{t:this.instance_25,p:{x:0}},{t:this.instance_24},{t:this.plasma_membrane},{t:this.nucleus},{t:this.nucleolus},{t:this.cytoplasm},{t:this.mithocondria},{t:this.sm_endosplasmic},{t:this.ribosome},{t:this.golgi_apparatus},{t:this.lysosome},{t:this.ro_endoplasmic},{t:this.centrioles}]},3).to({state:[{t:this.instance_28},{t:this.instance_27},{t:this.instance_26},{t:this.instance_25,p:{x:0}},{t:this.instance_24},{t:this.plasma_membrane},{t:this.nucleus},{t:this.nucleolus},{t:this.cytoplasm},{t:this.mithocondria},{t:this.sm_endosplasmic},{t:this.ribosome},{t:this.golgi_apparatus},{t:this.lysosome},{t:this.ro_endoplasmic},{t:this.centrioles}]},8).to({state:[{t:this.instance_28},{t:this.instance_27},{t:this.instance_26},{t:this.instance_25,p:{x:0}},{t:this.instance_24},{t:this.plasma_membrane},{t:this.nucleus},{t:this.nucleolus},{t:this.cytoplasm},{t:this.mithocondria},{t:this.sm_endosplasmic},{t:this.ribosome},{t:this.golgi_apparatus},{t:this.lysosome},{t:this.ro_endoplasmic},{t:this.centrioles}]},10).to({state:[{t:this.instance_28},{t:this.instance_27},{t:this.instance_26},{t:this.instance_25,p:{x:0}},{t:this.instance_24},{t:this.plasma_membrane},{t:this.nucleus},{t:this.nucleolus},{t:this.cytoplasm},{t:this.mithocondria},{t:this.sm_endosplasmic},{t:this.ribosome},{t:this.golgi_apparatus},{t:this.lysosome},{t:this.ro_endoplasmic},{t:this.centrioles}]},10).to({state:[{t:this.instance_28},{t:this.instance_27},{t:this.instance_26},{t:this.instance_25,p:{x:0}},{t:this.instance_24},{t:this.plasma_membrane},{t:this.nucleus},{t:this.nucleolus},{t:this.cytoplasm},{t:this.mithocondria},{t:this.sm_endosplasmic},{t:this.ribosome},{t:this.golgi_apparatus},{t:this.lysosome},{t:this.ro_endoplasmic},{t:this.centrioles}]},10).to({state:[{t:this.instance_28},{t:this.instance_27},{t:this.instance_26},{t:this.instance_25,p:{x:0}},{t:this.instance_24},{t:this.plasma_membrane},{t:this.nucleus},{t:this.nucleolus},{t:this.cytoplasm},{t:this.mithocondria},{t:this.sm_endosplasmic},{t:this.ribosome},{t:this.golgi_apparatus},{t:this.lysosome},{t:this.ro_endoplasmic},{t:this.centrioles}]},10).to({state:[{t:this.instance_28},{t:this.instance_27},{t:this.instance_26},{t:this.instance_25,p:{x:0}},{t:this.instance_24},{t:this.plasma_membrane},{t:this.nucleus},{t:this.nucleolus},{t:this.cytoplasm},{t:this.mithocondria},{t:this.sm_endosplasmic},{t:this.ribosome},{t:this.golgi_apparatus},{t:this.lysosome},{t:this.ro_endoplasmic},{t:this.centrioles}]},10).to({state:[{t:this.instance_28},{t:this.instance_27},{t:this.instance_26},{t:this.instance_25,p:{x:0}},{t:this.instance_24},{t:this.plasma_membrane},{t:this.nucleus},{t:this.nucleolus},{t:this.cytoplasm},{t:this.mithocondria},{t:this.sm_endosplasmic},{t:this.ribosome},{t:this.golgi_apparatus},{t:this.lysosome},{t:this.ro_endoplasmic},{t:this.centrioles}]},20).to({state:[{t:this.instance_28},{t:this.instance_27},{t:this.instance_26},{t:this.instance_25,p:{x:0}},{t:this.instance_24},{t:this.plasma_membrane},{t:this.nucleus},{t:this.nucleolus},{t:this.cytoplasm},{t:this.mithocondria},{t:this.sm_endosplasmic},{t:this.ribosome},{t:this.golgi_apparatus},{t:this.lysosome},{t:this.ro_endoplasmic},{t:this.centrioles}]},10).to({state:[{t:this.instance_28},{t:this.instance_27},{t:this.instance_26},{t:this.instance_25,p:{x:0}},{t:this.instance_24},{t:this.plasma_membrane},{t:this.nucleus},{t:this.nucleolus},{t:this.cytoplasm},{t:this.mithocondria},{t:this.sm_endosplasmic},{t:this.ribosome},{t:this.golgi_apparatus},{t:this.lysosome},{t:this.ro_endoplasmic},{t:this.centrioles}]},10).to({state:[{t:this.instance_28},{t:this.instance_27},{t:this.instance_26},{t:this.instance_25,p:{x:0}},{t:this.instance_24},{t:this.plasma_membrane},{t:this.nucleus},{t:this.nucleolus},{t:this.cytoplasm},{t:this.mithocondria},{t:this.sm_endosplasmic},{t:this.ribosome},{t:this.golgi_apparatus},{t:this.lysosome},{t:this.ro_endoplasmic},{t:this.centrioles}]},10).to({state:[{t:this.instance_28},{t:this.instance_27},{t:this.instance_26},{t:this.instance_25,p:{x:223}},{t:this.instance_24},{t:this.plasma_membrane},{t:this.nucleus},{t:this.nucleolus},{t:this.cytoplasm},{t:this.mithocondria},{t:this.sm_endosplasmic},{t:this.ribosome},{t:this.golgi_apparatus},{t:this.lysosome},{t:this.ro_endoplasmic},{t:this.centrioles}]},1).to({state:[{t:this.instance_29}]},1).to({state:[{t:this.instance_29}]},8).to({state:[{t:this.instance_30}]},1).to({state:[{t:this.instance_30}]},9).to({state:[{t:this.instance_31}]},1).to({state:[{t:this.instance_32}]},10).to({state:[{t:this.instance_33}]},10).to({state:[{t:this.instance_33},{t:this.instance_34}]},5).to({state:[{t:this.instance_33},{t:this.instance_35}]},1).wait(1));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(511.8,719.4,515.6000000000001,722.3000000000001);
+p.nominalBounds = new cjs.Rectangle(511.8,719.4,735.2,722.3000000000001);
 // library properties:
 lib.properties = {
 	id: 'E8A7B14270ABC94E9E3F8D4000A3234A',
@@ -2294,26 +2530,26 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/cellpage8_atlas_1.png", id:"cellpage8_atlas_1"},
-		{src:"images/cellpage8_atlas_2.png", id:"cellpage8_atlas_2"},
-		{src:"images/cellpage8_atlas_3.png", id:"cellpage8_atlas_3"},
-		{src:"images/cellpage8_atlas_4.png", id:"cellpage8_atlas_4"},
-		{src:"images/cellpage8_atlas_5.png", id:"cellpage8_atlas_5"},
-		{src:"images/cellpage8_atlas_6.png", id:"cellpage8_atlas_6"},
-		{src:"images/cellpage8_atlas_7.png", id:"cellpage8_atlas_7"},
-		{src:"images/cellpage8_atlas_8.png", id:"cellpage8_atlas_8"},
-		{src:"images/cellpage8_atlas_9.png", id:"cellpage8_atlas_9"},
-		{src:"images/cellpage8_atlas_10.png", id:"cellpage8_atlas_10"},
-		{src:"images/cellpage8_atlas_11.png", id:"cellpage8_atlas_11"},
-		{src:"images/cellpage8_atlas_12.png", id:"cellpage8_atlas_12"},
-		{src:"images/cellpage8_atlas_13.png", id:"cellpage8_atlas_13"},
-		{src:"images/cellpage8_atlas_14.png", id:"cellpage8_atlas_14"},
-		{src:"images/cellpage8_atlas_15.png", id:"cellpage8_atlas_15"},
-		{src:"images/cellpage8_atlas_16.png", id:"cellpage8_atlas_16"},
-		{src:"images/cellpage8_atlas_17.png", id:"cellpage8_atlas_17"},
-		{src:"images/cellpage8_atlas_18.png", id:"cellpage8_atlas_18"},
-		{src:"images/cellpage8_atlas_19.png", id:"cellpage8_atlas_19"},
-		{src:"images/cellpage8_atlas_20.png", id:"cellpage8_atlas_20"}
+		{src:"images/cellpage8_atlas_1.png?1665288669595", id:"cellpage8_atlas_1"},
+		{src:"images/cellpage8_atlas_2.png?1665288669595", id:"cellpage8_atlas_2"},
+		{src:"images/cellpage8_atlas_3.png?1665288669595", id:"cellpage8_atlas_3"},
+		{src:"images/cellpage8_atlas_4.png?1665288669596", id:"cellpage8_atlas_4"},
+		{src:"images/cellpage8_atlas_5.png?1665288669596", id:"cellpage8_atlas_5"},
+		{src:"images/cellpage8_atlas_6.png?1665288669596", id:"cellpage8_atlas_6"},
+		{src:"images/cellpage8_atlas_7.png?1665288669596", id:"cellpage8_atlas_7"},
+		{src:"images/cellpage8_atlas_8.png?1665288669597", id:"cellpage8_atlas_8"},
+		{src:"images/cellpage8_atlas_9.png?1665288669597", id:"cellpage8_atlas_9"},
+		{src:"images/cellpage8_atlas_10.png?1665288669597", id:"cellpage8_atlas_10"},
+		{src:"images/cellpage8_atlas_11.png?1665288669597", id:"cellpage8_atlas_11"},
+		{src:"images/cellpage8_atlas_12.png?1665288669597", id:"cellpage8_atlas_12"},
+		{src:"images/cellpage8_atlas_13.png?1665288669597", id:"cellpage8_atlas_13"},
+		{src:"images/cellpage8_atlas_14.png?1665288669597", id:"cellpage8_atlas_14"},
+		{src:"images/cellpage8_atlas_15.png?1665288669597", id:"cellpage8_atlas_15"},
+		{src:"images/cellpage8_atlas_16.png?1665288669598", id:"cellpage8_atlas_16"},
+		{src:"images/cellpage8_atlas_17.png?1665288669598", id:"cellpage8_atlas_17"},
+		{src:"images/cellpage8_atlas_18.png?1665288669598", id:"cellpage8_atlas_18"},
+		{src:"images/cellpage8_atlas_19.png?1665288669598", id:"cellpage8_atlas_19"},
+		{src:"images/cellpage8_atlas_20.png?1665288669598", id:"cellpage8_atlas_20"}
 	],
 	preloads: []
 };
